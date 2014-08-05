@@ -5,5 +5,17 @@
         "posibleAnswers": ["Yes", "No"],
         "correct": "Yes",
         "points": "1"
+    }, {
+        "title": "Some Title",
+        "body": "Some text",
+        "posibleAnswers": ["Yes", "No"],
+        "correct": "Yes",
+        "points": "1"
+    }, {
+        "title": "Some Title",
+        "body": "Some text",
+        "posibleAnswers": ["Yes", "No"],
+        "correct": "Yes",
+        "points": "1"
     }
 ]
