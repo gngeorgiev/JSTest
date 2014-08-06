@@ -1,21 +1,53 @@
 [
     {
-        "title": "Some Title",
-        "body": "Some text",
-        "posibleAnswers": ["Yes", "No"],
-        "correct": "Yes",
-        "points": "1"
+        "body": "When you collect object and array what you will get?",
+        "possibleAnswers": ["Object", "Array", "NaN"],
+        "correct": "Object",
+        "answer": ""
     }, {
-        "title": "Some Title",
-        "body": "Some text",
-        "posibleAnswers": ["Yes", "No"],
-        "correct": "Yes",
-        "points": "1"
+        "body": "What is more used '==' or '===' ?",
+        "possibleAnswers": ["==", "==="],
+        "correct": "===",
+        "answer": " '===' is more used because it not check only the value but also check the type."
     }, {
-        "title": "Some Title",
-        "body": "Some text",
-        "posibleAnswers": ["Yes", "No"],
-        "correct": "Yes",
-        "points": "1"
+        "body": "How to set a HTML document's (element) background color?",
+        "possibleAnswers": ["element.style.backgroundColor", "element.backgroundColor", "element.color()"],
+        "correct": "element.style.backgroundColor",
+        "answer": "'style' is something like namespace that collect all styles in Vanilla JavaScript"
+    }, {
+        "body": "Inside which HTML element do we put the JavaScript?",
+        "possibleAnswers": ["<javascript>", "<script>", "<js>"],
+        "correct": "<script>",
+        "answer": ""
+    }, {
+        "body": "Where is the correct place to insert a JavaScript?",
+        "possibleAnswers": ["<head>", "<body>", "Both"],
+        "correct": "Both",
+        "answer": "JavaScript file CAN be insert in <head> and <body>, but is best practice to put it in the end of the <body> tag."
+    }, {
+        "body": "Where is best place to initialized variables?",
+        "possibleAnswers": ["in the beginning", "everywhere"],
+        "correct": "in the beginning",
+        "answer": "JavaScript is like 'C', is good practice to initialized all variables at the beginning."
+    }, {
+        "body": "What is the main object in Node",
+        "possibleAnswers": ["window", "global"],
+        "correct": "global",
+        "answer": ""
+    }, {
+        "body": "What is the result of document.write(2 + '3' - 2)",
+        "possibleAnswers": ["21", "232", "3"],
+        "correct": "21",
+        "answer": "The calculation is that 2 + '3' = 23 (Number) so 23 - 2 = 21 ('+' operator here don't return NaN)."
+    }, {
+        "body": "How do you write 'Hello World' in an alert box?",
+        "possibleAnswers": ["alertBox('Hello World');", "alert('Hello World');", "msgBox('Hello World')"],
+        "correct": "alert('Hello World');",
+        "answer": ""
+    }, {
+        "body": "How do you create a function in JavaScript?",
+        "possibleAnswers": ["function:myFunction()", "function myFunction()", "function = myFunction()"],
+        "correct": "function = myFunction()",
+        "answer": ""
     }
 ]
