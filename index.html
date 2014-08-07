@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/styles.css"/>
     <link rel="stylesheet" href="css/angularAnimations.css"/>
 </head>
-<body ng-app="mainModule" class="col-md-6 col-md-offset-3">
+<body ng-app="mainModule" class="col-md-6 col-md-offset-3" ng-controller="QuestionController">
 
     <!--Header-->
     <header class="navbar navbar-default">
@@ -24,7 +24,7 @@
         <div class="navbar-collapse collapse navbar-responsive-collapse">
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#/test/start">Start Test</a></li>
+                <li><a href="#/test/start" ng-click="saveResult()">Start Test</a></li>
                 <li><a href="#/test/rating">Rating</a></li>
             </ul>
         </div>
@@ -37,10 +37,17 @@
     <!--Footer-->
     <footer class="panel panel-primary">
         <div class="panel-heading">
-            <h3 class="panel-title">Someee</h3>
+            <h3 class="panel-title">Test</h3>
         </div>
         <div class="panel-body">
-            List Of Winners
+            <p>The test is simple, you have 10 questions with 2 or 3 answers on a question and that questions give you points
+                and in the end you will have grade (bad, good, excellent) and a input for your name, that will add you to your
+                personal rating.</p>
+            <p>Grades:
+                <span class="label label-danger">Bad</span>
+                <span class="label label-info">Good</span>
+                <span class="label label-success">Excellent</span>
+            </p>
         </div>
     </footer>
 
@@ -54,6 +61,6 @@
     <!--App Files-->
     <script src="app/app.js"></script>
     <script src="app/controllers/questionController.js"></script>
-    <script src="app/controllers/playerController.js"></script>
+    <script src="app/controllers/playerDataController.js"></script>
 </body>
 </html>

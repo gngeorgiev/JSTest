@@ -1,6 +1,10 @@
-<div class="jumbotron" ng-controller="PlayerController">
+<div class="jumbotron">
     <h2>JavaScript Test</h2>
-    <p>Your Points: {{points}}</p>
+    <p>Your Points: {{points}}/{{maxPoints}}
+        <span class="label label-danger" ng-show="gradeBad">Bad</span>
+        <span class="label label-info" ng-show="gradeGood">Good</span>
+        <span class="label label-success" ng-show="gradeExcellent">Excellent</span>
+    </p>
     <form class="form-horizontal">
         <fieldset>
             <legend>Add Your Points</legend>
@@ -11,10 +15,7 @@
                 </div>
             </div>
             <div class="form-group">
-                <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-                <div class="col-lg-10">
-                    <input type="text" class="form-control" id="inputEmail" placeholder="Email">
-                </div>
+                <button class="btn btn-info btn-lg title-center" ng-click="saveResult()">Save Result</button>
             </div>
         </fieldset>
     </form>
