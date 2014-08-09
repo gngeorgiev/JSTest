@@ -8,11 +8,11 @@
 
     <!--Show Answer and Explanation-->
     <p>
-        <div ng-model="answer-block" class="alert alert-dismissable alert-success sample-show-hide" ng-show="showTrueAnswer">
+        <div class="alert alert-dismissable alert-success sample-show-hide" ng-show="showTrueAnswer">
             <button class="btn btn-primary btn-xs close" ng-click="nextQuestion()">Next Question</button>
             <strong>Correct! </strong>{{data[questionNumber].answer}}
         </div>
-        <div ng-model="answer-block" class="alert alert-dismissable alert-danger sample-show-hide" ng-show="showFalseAnswer">
+        <div class="alert alert-dismissable alert-danger sample-show-hide" ng-show="showFalseAnswer">
             <button class="btn btn-primary btn-xs close" ng-click="nextQuestion()">Next Question</button>
             <strong>Incorrect! </strong>{{data[questionNumber].answer}}
         </div>
